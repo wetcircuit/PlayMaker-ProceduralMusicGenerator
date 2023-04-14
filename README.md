@@ -19,8 +19,8 @@ These PlayMaker actions are compatable with Procedural Music Generator 2.0 relea
 2. MANIPULATE GENERATIVE COMPOSITIONS  
 (interactive and reactive music)  
   
-– Override/Get/Set Groups 
-– set the odds on GroupChange, ProgressionChange, LeitmotifTheme, KeyChange
+– Override/Get/Set Groups  
+– set the odds on GroupChange, ProgressionChange, LeitmotifTheme, KeyChange  
 – suspend Leitmotif notes  
 – Create percussion breaks, instrument solos, and alternate arrangements  
 – Trigger succession notes picked by the Generator (harmonic notes only)  
