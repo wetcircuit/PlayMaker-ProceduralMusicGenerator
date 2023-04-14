@@ -47,7 +47,7 @@ These PlayMaker actions are compatable with Procedural Music Generator 2.0 relea
 (PMG features that are not currently supported)  
   
 – Writing/saving Configs  
-– Play 'SingleClip' Measures
+– Play 'SingleClip' Measures  
 – Control AudioMixer Global SFX  
 – Control AudioMixer Instrument SFX  
   
