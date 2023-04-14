@@ -4,10 +4,18 @@
 Gracious thanks to Stick and Bindle for Procedural Music Generator on the Unity Asset Store.
 https://assetstore.unity.com/packages/audio/music/procedural-music-generator-192532
 
-These PlayMaker actions are compatable with Procedural Music Generator 2.0 released June 13, 2022
+<small>These PlayMaker actions are compatable with Procedural Music Generator 2.0 (released June 13, 2022)</small>
+
+INSTRUCTIONS:  
+Install PMG and PlayMaker  
+Copy the MusicGeneratorPlaymaker folder to your Unity Assets. Actions appear in the Action Browser.
+
+
   
 1. PLAY GENERATIVE SOUNDTRACKS  
 (RPG, visual novel, open world, etc)  
+
+The basic idea is to load configs and let them play in the background.
   
 – Load PMG Configs by name  
 – Play, Pause, and Stop  
@@ -18,36 +26,44 @@ These PlayMaker actions are compatable with Procedural Music Generator 2.0 relea
   
 2. MANIPULATE GENERATIVE COMPOSITIONS  
 (interactive and reactive music)  
+
+Exposes many of PMG's functions and variables to PlayMaker state machines. You can create evolving compositions beyond PMG's configs limitations, and create game mechanics that interact with the music.
   
-– Override/Get/Set Groups  
-– set the odds on GroupChange, ProgressionChange, LeitmotifTheme, KeyChange  
+– Override, Get and Set Groups  
+– Set odds on GroupChange, ProgressionChange, LeitmotifTheme, KeyChange  
 – suspend Leitmotif notes  
 – Create percussion breaks, instrument solos, and alternate arrangements  
-– Trigger succession notes picked by the Generator (harmonic notes only)  
-– PlayMaker Events for Note Played, New Measure, and Progression Generated  
-– Synchronize PlayMaker states with the soundtrack's evolution  
+– trigger instrument succession notes picked by the Generator (always in harmony)   
+– State machine events for NotePlayed, NewMeasure, and ProgressionGenerated  
+– Synchronize PlayMaker states with the soundtrack's evolution, and vice-versa  
 – Trigger lights, particles, animations and more!
   
-3. INSTRUMENTS, SEQUENCERS, and MORE  
-(Music toys, Synths, and rhythm machines)  
+3. INSTRUMENTS, SEQUENCERS, and DRUM MACHINES  
+(Music toys, Synths, and Rhythm boxes)  
+
+PMG's Editer UI is the best app for programming configs, but with these actions you can connect PMG to abstract interfaces, program beat-loops, and trigger instrument samples.  PMG can feed notes to 3rd-party synths and Midi soundfonts.
   
 – Free-Play PMG Instruments and Percussion  
-– Set Tempo, Key, Scale, and Time Signature
+– Set Tempo, Key, Scale, and Time Signature  
 – Read the current harmonic Chord Progression  
-– Edit Leitmotif’s 8-chord progression in real-time, individually or as an array  
+– Edit Leitmotif’s 8-progression chords in real-time, individually or as an array  
 – Mute and Solo individual instruments  
 – Sort Instruments by their custom names, by percussion type, or synth  
-– Set the Manual Beats on any Instrument – create a 16-step sequencer or harmonic rhythm machine!   
+– Set the ManualBeats on any Instrument  
+– create a 16-step sequencer or harmonic rhythm machine!   
 – Intercept notes from a specific Instrument and suppress Generator from playing  
-– Route notes via PlayMaker to Midi, OSC, Helm Synth, etc
+– Route individual instruments via PlayMaker (to Midi, OSC, Helm Synth, etc)  
   
 
 
-4. WHAT IT CAN’T DO  
-(PMG features that are not currently supported)  
+4. WHAT THESE ACTIONS CAN’T DO  
+(PMG features that are not yet supported)  
   
 – Writing/saving Configs  
 – Play 'SingleClip' Measures  
 – Control AudioMixer Global SFX  
 – Control AudioMixer Instrument SFX  
+– Control Synth parameters  
+
+
   
