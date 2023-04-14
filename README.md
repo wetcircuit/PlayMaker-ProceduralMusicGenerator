@@ -1,16 +1,15 @@
 # PlayMaker ProceduralMusicGenerator
  PlayMaker actions for ProceduralMusicGenerator in Unity
 
-Gracious thanks to Stick and Bindle for Procedural Music Generator on the Unity Asset Store.
+Gracious thanks to Stick and Bindle for <b>Procedural Music Generator</b> on the Unity Asset Store.  
 https://assetstore.unity.com/packages/audio/music/procedural-music-generator-192532
 
-<small>These PlayMaker actions are compatable with Procedural Music Generator 2.0 (released June 13, 2022)</small>
+<small><i>These PlayMaker actions are compatable with Procedural Music Generator 2.0 (released June 13, 2022)</i></small>
 
-INSTRUCTIONS:  
-Install PMG and PlayMaker  
-Copy the MusicGeneratorPlaymaker folder to your Unity Assets. Actions appear in the Action Browser.
+INSTRUCTIONS:   
+Copy the MusicGeneratorPlaymaker folder to your Unity Assets. Actions appear in the PlayMaker Action Browser.
 
-
+suggested uses
   
 1. PLAY GENERATIVE SOUNDTRACKS  
 (RPG, visual novel, open world, etc)  
